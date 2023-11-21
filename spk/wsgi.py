@@ -17,3 +17,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'spk.settings')
 application = get_wsgi_application()
 
 app = application
+handler = application
